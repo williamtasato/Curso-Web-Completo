@@ -1,0 +1,21 @@
+db.estados.insert({
+ nome: "São Paulo",
+ sigla: "SP",
+ regiao: "Sudeste",
+ cidades: [{
+ id: ObjectId(),    
+ nome: "Campinas",
+ area: 795.7,
+ prefeito: "Jonas Donizete",
+ populacao: 10810000
+ },{
+ id: ObjectId(),    
+ nome: "Guarulhos",
+ populacao: 13250000  
+ },{
+ id: ObjectId(),     
+ nome: "Sorocaba",
+ distanciaCapital: 87,
+ populacao: 644919
+ }]
+ })
